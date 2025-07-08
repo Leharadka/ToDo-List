@@ -1,0 +1,40 @@
+.todo-container {
+  margin-top: 50px;
+}
+
+input {
+  font-size: 16px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
